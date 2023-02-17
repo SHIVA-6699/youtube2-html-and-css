@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body
+        {
+            background-color: black;
+
+        }
+        .y
+        {
+            height: -10px;
+            width: 400px;
+            margin: 50%;
+            padding: 10%;
+            align-items: center;
+            border-radius:250px ;
+            background-color: red;
+            
+            border: 2px solid red;
+            
+            
+
+        }
+        .y:hover
+        {
+            background-color: blue;
+        }
+        .w
+        {
+            border-left: 400 px solid transparent;
+            border-right: 400px solid  transparent;
+            border-bottom: 400px solid rgb(255, 255, 255);
+            height: 0%;
+            width: 0px;
+            
+            top:115%;
+            position: absolute;
+            left: 57%;
+            margin: 2rem;
+            align-items: center;
+            transform:rotate(225deg);
+            
+          
+       
+       
+        
+       }
+       .w:hover
+       {
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: green;
+       }
+
+
+            
+        }
+    </style>
+    <div class="w"></div>
+    <div class="y"></div>
+</body>
+</html>
